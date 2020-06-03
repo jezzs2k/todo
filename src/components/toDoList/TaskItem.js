@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import './taskItem.css';
 
-const TaskItem = ({ task }) => {
+const TaskItem = ({ task, handleTaskFinish }) => {
   return (
-    <div className='task'>
+    <div className='task' onClick={handleTaskFinish(task)}>
       <p className='number'>
         {task.number}
         <span>.</span>

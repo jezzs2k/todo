@@ -12,8 +12,8 @@
   background-attachment: fixed;
 }
 
-.content .bg .btn-addTask,
-.content .bg .alert {
+.content .btn-addTask,
+.content .alert {
   width: 40px;
   height: 40px;
   background: #76c3cd;
@@ -28,7 +28,7 @@
   cursor: pointer;
 }
 
-.content .bg .alert {
+.content .alert {
   width: auto;
   height: auto;
   border-radius: 10px;
@@ -39,7 +39,7 @@
   padding: 3px;
 }
 
-.content .bg .btn-addTask .add-icon {
+.content .btn-addTask .add-icon {
   width: 100%;
   max-width: 30px;
 }
@@ -62,6 +62,13 @@
 
 .content .bg .text p:first-child {
   margin-left: 100px;
+}
+
+.content .footer {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -100%);
 }
 
 .content .footer .text {

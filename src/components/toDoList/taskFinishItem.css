@@ -1,4 +1,4 @@
-.task {
+.taskFinish {
   max-width: 90%;
   background: white;
   width: 100%;
@@ -8,7 +8,7 @@
   margin: 10px auto;
 }
 
-.task p {
+.taskFinish p {
   color: #76c3cd;
   font-size: 1.2em;
   padding: 10px;
@@ -16,10 +16,10 @@
   opacity: 0.7;
 }
 
-.task .number {
+.taskFinish .number {
   font-weight: 500;
 }
 
-.task .text {
+.taskFinish .text {
   text-transform: capitalize;
 }

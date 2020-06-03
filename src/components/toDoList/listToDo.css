@@ -1,9 +1,10 @@
-.task-finish {
+.listToDo {
   max-width: 700px;
   margin: auto;
+  margin-top: 50px;
 }
 
-.task-finish .title {
+.listToDo .title {
   font-size: 1em;
   font-weight: 400;
   letter-spacing: 4px;
