@@ -1,0 +1,42 @@
+.content {
+  width: 100%;
+  height: 100vh;
+}
+
+.content .bg {
+  background-image: url(/static/media/4820.b0b3017e.jpg);
+  width: 100%;
+  height: 88%;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.content .bg .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.content .bg .text p {
+  background: #76c3cd;
+  padding: 4px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+.content .bg .text p:first-child {
+  margin-left: 100px;
+}
+
+.content .footer .text {
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
