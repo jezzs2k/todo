@@ -1,0 +1,26 @@
+.menu {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.menu .btn {
+  width: 75%;
+}
+
+.menu .btn .btn-icon {
+  max-width: 40px;
+}
+
+.menu .logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menu .logo .name {
+  color: white;
+  font-size: 1.4em;
+  letter-spacing: 5px;
+  line-height: 10px;
+}
